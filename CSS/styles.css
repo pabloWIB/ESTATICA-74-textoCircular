@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: rgb(96, 98, 228);
+    display: flex;
+    place-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 3rem;
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    place-content: center;
+}
+
+svg{
+    margin-left: 312px;
+    margin-top: 85px;
+    scale: 2.5;
+}
+
